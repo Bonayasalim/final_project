@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} Index
+{% endblock %}
+
+
+{% block content %}
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Fashion Design and Dressmaking</h1>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  <section id="course-index" class="section course-index">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-12 col-md-12 d-flex" data-aos="fade-up" data-aos-delay="500">
+
+           <div class="member-info text-center">
+              <img src="{% static 'img/drophina.jpg' %}" class="img-fluid" alt="" height="100" width="200">
+              <div class="member-content">
+                  <p>
+                <h3>Ms. Drophina Nzai</h3>
+                  <h4>Head of Department</h4>
+                  <h4>Fashion Design and Dressmaking</h4></p>
+
+                <p>
+                    Welcome to the Department of Fashion Design at Madogo Vocational Training Centre. Our department is committed to fostering creativity and innovation in the world of fashion. We aim to equip our trainees with the technical skills, artistic vision, and entrepreneurial mindset needed to thrive in the ever-evolving fashion industry.
+
+                            <li>Clothing tevchnology</li>
+                            <li>Garment making</li>
+                            <li>Dressmaking</li>
+                            <li>Sketching</li>
+                            <li>Other short courses</li>
+
+
+                  Our training approach combines theoretical learning with hands-on practical experience to ensure a comprehensive understanding of ICT concepts and their real-world applications. We conduct two types of assessments:
+                  <ol>1. Formative Assessment: Continuous evaluation to track your progress throughout the course.</ol>
+                  <ol>2. Summative Assessment: Administered by accredited bodies such as CDAAC, NITA, and KNEC to validate your competencies.</ol>
+                  After completing the training, trainees proceed to a three-month industrial attachment, where they gain valuable industry exposure and practical experience. Upon successful completion, trainees graduate, ready to take on the challenges of the technology field.
+                  Whether you're looking to kickstart your ICT career or enhance your existing skills, we are here to guide and support you on your journey. Welcome to a learning environment where innovation meets opportunity.
+
+            </p>
+
+          </div>
+
+
+        </main>
+
+     {% endblock %}

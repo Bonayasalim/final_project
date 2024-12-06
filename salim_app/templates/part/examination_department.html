@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} Index
+{% endblock %}
+
+
+{% block content %}
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Examination Department</h1>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  <section id="course-index" class="section course-index">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-12 col-md-12 d-flex" data-aos="fade-up" data-aos-delay="500">
+
+           <div class="member-info text-center">
+              <img src="{% static 'img/pro6.jpg' %}" class="img-fluid" alt="">
+              <div class="member-content">
+                  <p>
+                <h3>Mr. Hassan Ali</h3>
+                  <h4>Head of Department</h4>
+                  <h4>Examination</h4></p>
+
+                <p>
+
+                    The Examination Office at Madogo Vocational Training Centre is the cornerstone of academic integrity and excellence. This office is responsible for coordinating all examination-related activities, including registration, scheduling, administration, and results processing for trainees across all courses. It ensures adherence to the standards set by examining bodies such as the National Industrial and Training Authority (NITA), guaranteeing fair and transparent assessment processes.
+                    Staffed by experienced professionals, the office provides support to trainees and trainers, addressing inquiries and guiding them through the examination process. With a commitment to accuracy, efficiency, and confidentiality, the Examination Office plays a vital role in upholding the institution's academic reputation and preparing trainees for their professional certification and career advancement.
+                </p>
+
+          </div>
+
+
+        </main>
+
+     {% endblock %}

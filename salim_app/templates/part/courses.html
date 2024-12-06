@@ -1,0 +1,132 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} Index
+{% endblock %}
+
+
+{% block content %}
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Courses</h1>
+              <p class="mb-0">At Madogo Vocational Training Centre, we offer a diverse range of courses tailored to equip trainees with practical skills, technical knowledge, and professional competencies. Each program is designed to combine theoretical learning with hands-on experience to meet industry standards and prepare learners for employment or entrepreneurship.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Homepage</a></li>
+            <li class="current">Courses</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses section">
+
+
+       <!-- courses Index Section -->
+    <section id="trainers-index" class="section trainers-index">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <img src="{% static 'img/pro6.jpg' %}" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Information Communication Technology</h4>
+                <span></span>
+                <p>
+                  This course is designed to equip learners with essential digital skills for the modern workplace. As a TVET institution, the program emphasizes hands-on training in computer systems, office applications, internet technologies, and basic programming. The course also introduces concepts of networking, cybersecurity, and digital literacy.
+                    Accredited by KNEC,NITA and CDAAC, this course prepares trainees for dynamic roles in ICT-related fields and offers pathways for further studies or immediate employment. Graduates leave with practical expertise, making them valuable in today's technology-driven economy.
+                </p>
+
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="{% static 'img/hairdressing.jpg' %}" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Hairdressing,Beauty & Hennah Dessign</h4>
+                <span> </span>
+                <p>
+                    This is a dynamic program designed to equip trainees with practical skills in hair, beauty, and personal care. The course covers a wide range of services, including hairdressing, barbering, skin care, nail artistry, and henna design.
+                    Trainees gain expertise in hair cutting, styling,coloring, and braiding, as well as skin care treatments, facials, and professional makeup application. Additional modules include nail art, manicure, pedicure, and the art of creating intricate henna designs. The program also incorporates customer care, salon management, and hygiene practices to prepare learners for both employment and entrepreneurship in the beauty industry.
+                    Accredited by NITA and CDAAC, this course ensures trainees are well-prepared to meet the diverse needs of clients in the growing beauty and grooming sector.
+                </p>
+
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="{% static 'img/pro5.jpg' %}" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Fashion Design & Clothing Technology</h4>
+
+                <p>
+                  This course is designed to equips trainees with the skills,Knowledge, attitude and creativity needed to excel in the fashion and apparel industry. This comprehensive program covers key areas such as garment design, pattern drafting, cutting, stitching, and fabric selection.
+                    Trainees learn advanced techniques in tailoring, embroidery, fabric decoration, and modern fashion trends. The course also emphasizes practical knowledge in industrial sewing, textile technology, and fashion illustration. Business skills, including marketing and entrepreneurship, are integrated to prepare learners for self-employment or roles in the fashion industry.
+                    Accredited by NITA and CDAAC, this program blends theory and hands-on training to ensure graduates can create high-quality garments and stay competitive in the evolving world of fashion.
+                </p>
+
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+
+            <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="{% static 'img/solar.webp' %}" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Solar Installation Technology</h4>
+
+                <p>
+
+                    This course is designed to provide learners with the technical expertise to design, install, and maintain solar energy systems. This program is tailored to meet the growing demand for clean and sustainable energy solutions in residential, commercial, and industrial settings.
+                    The course covers essential topics such as photovoltaic (PV) system design, solar panel installation, wiring, inverter and battery setup, and system troubleshooting. Trainees also learn about energy efficiency, safety standards, and the environmental benefits of solar power.
+                    Accredited by KNEC,NITA and CDAAC, this hands-on program combines theoretical knowledge with practical application, preparing graduates for careers as skilled solar technicians or entrepreneurs in the renewable energy sector.
+                </p>
+
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+
+           <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="{% static 'img/pro 4.jpg' %}" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Electrical Installation Technology</h4>
+
+                <p>
+                    The Electrical Installation course at Madogo Vocational Training Centre equips trainees with the knowledge and practical skills needed to install, maintain, and troubleshoot electrical systems. This comprehensive program is designed to meet industry standards and prepare learners for careers in residential, commercial, and industrial electrical installations.
+                    The course covers key areas such as electrical wiring, circuit design, motor control, lighting systems, and the safe operation of electrical tools and equipment. Trainees also learn about electrical codes, regulations, and energy-efficient practices to ensure compliance with industry standards.
+                    Accredited by NITA and CDAAC, the program blends theoretical instruction with hands-on training, including a mandatory industrial attachment. Graduates are prepared to become skilled electricians ready to meet the growing demand for electrical professionals in the job market.        </p>
+
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+
+        </div>
+
+      </div>
+
+  </main>
+
+ {% endblock %}

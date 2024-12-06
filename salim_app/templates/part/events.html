@@ -1,0 +1,101 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} about
+{% endblock %}
+
+
+{% block content %}
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Events</h1>
+              <p class="mb-0">The activities we have had includes the college inauguration, luncheon with the CECM and the area MCA and the 1st graduation ceremony </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="{% url 'homepage' %}">Home</a></li>
+            <li class="current"></li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <!-- Events Section -->
+    <section id="events" class="events section">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-md-3 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+                <img src="{% static 'img/madogogr.jpg' %}" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">His Execellecy the deputy Governor Hon. Mahat Loka awarding Certificates during our 1st graduation ceremony</a></h5>
+                <p class="fst-italic text-center">Thursday, 14th November 2024</p>
+                <p class="card-text">On 14th November 2024, we proudly held our 1st Graduation Ceremony, celebrating the success of over 60 graduates in various fields of study. The momentous occasion was graced by His Excellency the Deputy Governor of Tana River County, Hon. Mahat Loka, highlighting the importance of technical education in driving regional development.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+                <img src="{% static 'img/waziriluncheon.jpg' %}" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Luncheon with the CECM for Education and the area Member of County Assembly</a></h5>
+                <p class="fst-italic text-center">Monday, 8th July 2024 </p>
+                <p class="card-text">On 8th July 2024, MVTC hosted a Luncheon with the CECM for Education and the Area Member of County Assembly, fostering partnerships and support for advancing vocational training in the region. This event underscored the value of collaboration in empowering our trainees and improving regional development.</p>
+              </div>
+            </div>
+          </div>
+
+            <div class="col-md-3 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+                <img src="{% static 'img/dcctree.jpg' %}" alt="..." height="500" width="400">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href=""></a>The Subcounty Deputy County Commissioner (DCC) led a tree planting activity </h5>
+                <p class="fst-italic text-center">Thursday, 14th November 2024</p>
+                <p class="card-text">During the 1st graduation ceremony of Madogo Vocational Training Centre on 14th November 2024, the Subcounty Deputy County Commissioner (DCC) led a tree planting activity as part of the celebrations.</p>
+              </div>
+            </div>
+          </div>
+
+ <div class="col-md-3 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+                <img src="{% static 'img/afbalotree.jpg' %}" alt="..." height="500" width="400">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href=""></a>The Madogo Ward Member of County Assembly (MCA)  </h5>
+                <p class="fst-italic text-center">Thursday, 14th November 2024</p>
+                <p class="card-text">During the 1st graduation ceremony of Madogo Vocational Training Centre on 14th November 2024, the Madogo Ward Member of County Assembly (MCA) led a tree planting initiative to mark the special occasion. This activity underscored the MCA's commitment to environmental conservation and community development, aligning with the ward's efforts to promote sustainability.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Events Section -->
+
+  </main>
+
+{% endblock %}

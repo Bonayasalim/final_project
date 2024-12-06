@@ -1,0 +1,266 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} Index
+{% endblock %}
+
+{% block content %}
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="{% static 'img/gradbana.jpg' %}" alt="">
+
+      <div class="container">
+        <h2 data-aos="fade-up" data-aos-delay="100">Skills for better living</h2>
+        <p data-aos="fade-up" data-aos-delay="200">We are a centre of exellence in Technical training</p>
+
+
+        <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
+          <a href="{% url 'courses' %}" class="btn-get-started">Join us today</a>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
+
+            <img src="{% static 'img/elect.jpg' %}" class="img-fluid" alt="" >
+
+            <img src="{% static 'img/comp.jpg' %}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200">
+            <h3>Madogo Vocational Training Centre</h3>
+            <p class="fst-normal mb-4">
+
+Welcome to Madogo Vocational Training Centre, a premier technical institution dedicated to empowering young Kenyans in Madogo Zone with practical skills and knowledge for a successful career. Located in the heart of Tana River County, MVTC is committed to providing accessible, high-quality vocational education that meets industry demands. We offer a wide range of accredited courses in fields such as Electrical and Electronic Engineering, Fashion Design, Hairdressing, and ICT, blending theoretical learning with hands-on experience. Our programs are certified by NITA (National Industrial and Training Authority), CDAAC, and the Tana River County Government, ensuring our graduates are well-prepared for the job market.
+                State-of-the-art facilities that replicate real-world work environments. A focus on job readiness, with industrial attachments and industry-aligned curricula.
+                Whether you're starting your career or enhancing your skills, MVTC provides a supportive and inclusive environment where you can thrive academically, professionally, and personally.
+
+Join us today and take the first step toward a brighter future!
+            </p>
+              <p> <b>We offer courses in the following areas of competency: </b></p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Electrical and Electronic Engineering</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Information Communication Technology</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Hairdressing and Beauty Therapy</span></li>
+            </ul>
+            <a href="{% url 'courses' %}" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Counts Section -->
+    <section id="counts" class="section counts light-background">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="84" data-purecounter-duration="3" class="purecounter"></span>
+              <p>Students</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="3" class="purecounter"></span>
+              <p>Courses</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="3" class="purecounter"></span>
+              <p>Events</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="3" class="purecounter"></span>
+              <p>Trainers</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Counts Section -->
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="section why-us">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="why-box">
+              <h3> <b>Why Choose Madogo Vocational Training Centre?</b></h3>
+
+
+
+                <p>1.Accredited Programs: Certified by NITA, CDAAC, and Tana River County, ensuring high industry standards. </p>
+                <p>2.Expert Training: Skilled trainers and a 100% pass rate in recent external exams.  </p>
+                <p>3. Comprehensive Learning: Combines theory, practicals, and industrial attachments.</p>
+                <p>4. Modern Facilities: Equipped workshops and tools for hands-on training.</p>
+                <p>5. Affordable and Accessible: Quality education at reasonable fees, serving the Tana River region.</p>
+                <p>6. Job Readiness: Focus on employability skills and strong industry links.</p>
+                <p>7. Supportive Environment: Inclusive learning with mentorship, sports, and extracurricular activities.</p>
+                <p>8. Proven Success: Recognized achievements in exams and sports competitions.</p>
+                <p> MVTC offers the skills and environment needed to build a successful career </p>
+
+
+
+            </div>
+          </div>
+
+      <div class="col-lg-6 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <img src="{% static 'img/sport2.jpg' %}" class="img-fluid" alt="">
+                <img src="{% static 'img/sports.jpg' %}" class="img-fluid" alt="">
+                <img src="{% static 'img/pro8.jpg' %}" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Extracurricular Activities</h4>
+                <span></span>
+                <p>
+                  At Madogo Vocational Training Centre, we value extracurricular activities as an integral part of holistic development. Our Volleyball Boys Team showcased their talent and teamwork by representing the institution at the Tana River County Vocational Training Centres Sports Competition held at Tumaini VTC in Bura. Their participation not only highlighted their dedication and sportsmanship but also underscored the importance of fostering leadership, teamwork, and community spirit among our trainees. We remain committed to supporting such initiatives, enabling our students to excel both inside and outside the classroom.
+                </p>
+
+              </div>
+            </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+
+    <!-- Courses Section -->
+
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+
+        <p>Popular Courses</p>
+      </div><!-- End Section Title -->
+
+          </section>
+              <!-- /Courses Section -->
+
+    <!-- courses Index Section -->
+    <section id="trainers-index" class="section trainers-index">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <img src="{% static 'img/pro6.jpg' %}" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Information Communication Technology</h4>
+                <span></span>
+                <p>
+                  This course is designed to equip learners with essential digital skills for the modern workplace. As a TVET institution, the program emphasizes hands-on training in computer systems, office applications, internet technologies, and basic programming. The course also introduces concepts of networking, cybersecurity, and digital literacy.
+                    Accredited by KNEC,NITA and CDAAC, this course prepares trainees for dynamic roles in ICT-related fields and offers pathways for further studies or immediate employment. Graduates leave with practical expertise, making them valuable in today's technology-driven economy.
+                </p>
+
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="{% static 'img/hairdressing.jpg' %}" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Hairdressing,Beauty & Hennah Dessign</h4>
+                <span> </span>
+                <p>
+                    This is a dynamic program designed to equip trainees with practical skills in hair, beauty, and personal care. The course covers a wide range of services, including hairdressing, barbering, skin care, nail artistry, and henna design.
+                    Trainees gain expertise in hair cutting, styling,coloring, and braiding, as well as skin care treatments, facials, and professional makeup application. Additional modules include nail art, manicure, pedicure, and the art of creating intricate henna designs. The program also incorporates customer care, salon management, and hygiene practices to prepare learners for both employment and entrepreneurship in the beauty industry.
+                    Accredited by NITA and CDAAC, this course ensures trainees are well-prepared to meet the diverse needs of clients in the growing beauty and grooming sector.
+                </p>
+
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="{% static 'img/pro5.jpg' %}" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Fashion Design & Clothing Technology</h4>
+
+                <p>
+                  This course is designed to equips trainees with the skills,Knowledge, attitude and creativity needed to excel in the fashion and apparel industry. This comprehensive program covers key areas such as garment design, pattern drafting, cutting, stitching, and fabric selection.
+                    Trainees learn advanced techniques in tailoring, embroidery, fabric decoration, and modern fashion trends. The course also emphasizes practical knowledge in industrial sewing, textile technology, and fashion illustration. Business skills, including marketing and entrepreneurship, are integrated to prepare learners for self-employment or roles in the fashion industry.
+                    Accredited by NITA and CDAAC, this program blends theory and hands-on training to ensure graduates can create high-quality garments and stay competitive in the evolving world of fashion.
+                </p>
+
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+
+            <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="{% static 'img/solar.webp' %}" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Solar Installation Technology</h4>
+
+                <p>
+
+                    This course is designed to provide learners with the technical expertise to design, install, and maintain solar energy systems. This program is tailored to meet the growing demand for clean and sustainable energy solutions in residential, commercial, and industrial settings.
+                    The course covers essential topics such as photovoltaic (PV) system design, solar panel installation, wiring, inverter and battery setup, and system troubleshooting. Trainees also learn about energy efficiency, safety standards, and the environmental benefits of solar power.
+                    Accredited by KNEC,NITA and CDAAC, this hands-on program combines theoretical knowledge with practical application, preparing graduates for careers as skilled solar technicians or entrepreneurs in the renewable energy sector.
+                </p>
+
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+
+           <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="{% static 'img/pro 4.jpg' %}" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Electrical Installation Technology</h4>
+
+                <p>
+                    The Electrical Installation course at Madogo Vocational Training Centre equips trainees with the knowledge and practical skills needed to install, maintain, and troubleshoot electrical systems. This comprehensive program is designed to meet industry standards and prepare learners for careers in residential, commercial, and industrial electrical installations.
+                    The course covers key areas such as electrical wiring, circuit design, motor control, lighting systems, and the safe operation of electrical tools and equipment. Trainees also learn about electrical codes, regulations, and energy-efficient practices to ensure compliance with industry standards.
+                    Accredited by NITA and CDAAC, the program blends theoretical instruction with hands-on training, including a mandatory industrial attachment. Graduates are prepared to become skilled electricians ready to meet the growing demand for electrical professionals in the job market.        </p>
+
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+
+        </div>
+
+      </div>
+
+    </section><!-- /courses Index Section -->
+
+  </main>
+
+{% endblock %}

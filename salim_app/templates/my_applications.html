@@ -1,0 +1,12 @@
+{% extends 'registration.html' %}
+
+{% block title %}My Applications{% endblock %}
+
+{% block content %}
+<h1>My Applications</h1>
+<ul>
+    {% for application in applications %}
+        <li>{{ application.course.name }} - Applied on {{ application.applied_at }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
